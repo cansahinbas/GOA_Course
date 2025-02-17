@@ -1,11 +1,11 @@
-number=(5)
+number=5
 
-number1=(8)
+number1=8
 
-number2=(3)
+number2=3
 
-number3=(9)
+number3=9
 
-number4=(10)
+number4=10
 
 print(number+number1+number2+number3+number4)
