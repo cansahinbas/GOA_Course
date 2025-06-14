@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>
+            table
+        </title>
+    </head>
+    <body>
+        <table border="1" >
+            <thead>
+                <th>header colum 1</th>
+                <th>header colum 2</th>
+                <th>header colum 3</th>
+                <th>header colum 4</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="1">row 2-item 1</td>
+                    <td rowspan="1">row 2-item 2</td>
+                    <td rowspan="2">row 2:nested table <table border="1">
+                    <thead >
+                        <tr>
+                            <th>row 1 header </th>
+                            <td>item</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>row 2 header </th>
+                            <td>item</td>
+                        </tr>
+                        <tr>
+                            <th>row 3 header </th>
+                            <td>item</td>
+                        </tr>
+                    </tbody>
+                </table></td>
+                <td>row 2-item 4 A second line</td>
+                </tr>
+                <tr>
+                    <td>row3-item 1</td>
+                    <td>row3-item 2</td>
+                    <td rowspan="2">row3-item 3</td>
+                </tr>
+                <tr>
+                    <td>row4-item 1</td>
+                    <td>row4-item 2</td>
+                    <td>row3-item 3</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </body>
+</html>
