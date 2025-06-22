@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 13%;
+    background-color: rgb(218, 218, 218);
+}
+
+
+header h1{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+a{
+    position: absolute;
+    left:75%;
+    font-size:xx-large ;
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+    position: absolute;
+    top: 4%;
+}
+
+.a1{
+    position: absolute;
+    left: 65%;
+}
+
+.a3{
+    position: absolute;
+    left: 87%;
+}
+
+div{
+    background-color: rgb(253, 245, 235);
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+
+div p{
+    width: 25%;
+    height: 10%;
+    font-size: large;
+    position: absolute;
+    left: 8%;
+    top: 35%;
+}
+
+div h2{
+    font-size: 300%;
+    position: absolute;
+    left: 12%;
+    top: 10%;
+}
+
+div img{
+    height: 100%;
+    position:absolute;
+    left: 45%;
+    border-top-left-radius:100px;
+    border-bottom-left-radius:100px ;
+}
