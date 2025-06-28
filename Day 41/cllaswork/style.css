@@ -1,0 +1,19 @@
+h1{
+    color: aqua;
+    background-color: black;
+    border: 1px solid darkgrey;
+    border-radius: 20px;
+    text-align: center;
+}
+
+p{
+    color: blue;
+    background-color: aqua;
+    border: 5px solid lightblue;
+    border-radius: 30px;
+    text-align: center;
+    height: 100px;
+    width: 500px ;
+    position: absolute;
+    left:675px;
+}
