@@ -1,65 +1,70 @@
-# #1
-# can = input("neter word: ")
+#1
+can = input("neter word: ")
 
-# result = 0
+result = 0
 
-# for i in can:
-#     if i == " ":
-#         result += 1
+for i in can:
+    if i == " ":
+        result += 1
 
-# print(result)
+print(result)
 
-# #2
-# can = ["can","leila","bela","nika","gio"]
+#2
+can = ["can","leila","bela","nika","gio"]
 
-# words = input("enter word: ")
-# numbers = int(input("enter numbers: "))
+words = input("enter word: ")
+numbers = int(input("enter numbers: "))
 
-# can.insert(numbers,words)
+can.insert(numbers,words)
 
-# print(can)
+print(can)
 
-# #3
-# can = input("enter campelcase world: ")
+#3
+can = input("enter campelcase word: ")
 
-# result=""
+result=""
 
-# for i in can:
-#     if i.isupper():
-#         result += " " + i.lower()
-#     else:
-#         result += i
+for i in can:
+    if i.isupper():
+        result += " " + i.lower()
+    else:
+        result += i
 
-# print(result)
+result = result.capitalize()
 
-# #4
-# can = input("enter world: ")
+print(result)
 
-# result=""
+#4
+can = input("enter word: ")
 
-# for i in can:
-#     result += i
-#     if i == " ":
-#         result += "_"
-#     else:
-#         result += i
+result=""
 
-# print(result)
+for i in can:
+    result += i
+    if i == " ":
+        result += "_"
+    else:
+        result += i
 
+print(result)
 
 #5
 names=[]
-words=[]
+list1=[]
+other=[]
 
 for i in range(5):
     name = input("enter name: ")
     names.append(name)
 
-for i in names:
-    for i in name.lower():
+for name in names:
+    for i in name:
         if i in "bcdfghjklmnpqrstvwxyz":
-            words.append(i)
+            list1.append(i)
 
-a = sorted(set(words))
+for i in list1:
+    if i not in other:
+        other.append(i)
 
-print(a)
+other.sort()
+print(other)
