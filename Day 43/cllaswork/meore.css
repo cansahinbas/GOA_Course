@@ -1,0 +1,18 @@
+div h1 {
+    color: aqua;
+    background-color: antiquewhite;
+    font-size: 100px;
+}
+
+div p {
+    color: antiquewhite;
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+div button{
+    color: blue;
+    background-color: burlywood;
+    text-align: right;
+}

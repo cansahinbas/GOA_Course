@@ -1,0 +1,14 @@
+h1,h3{
+    color: aqua;
+    background-color: black;
+    text-align: center;
+}
+
+button{
+    color: yellow;
+}
+
+div button{
+    background-color: green;
+}
+
